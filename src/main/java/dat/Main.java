@@ -1,6 +1,7 @@
 package dat;
 
 import dat.config.ApplicationConfig;
+import dat.config.Populate;
 import dat.controllers.impl.ExceptionController;
 import dat.exceptions.ApiException;
 import dat.exceptions.Message;
@@ -17,5 +18,6 @@ public class Main {
         //22
         //New image should auto update
         //23
+        Populate.main(args);
     }
 }
