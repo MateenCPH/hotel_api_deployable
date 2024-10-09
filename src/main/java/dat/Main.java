@@ -16,5 +16,6 @@ public class Main {
         ApplicationConfig.startServer(7070);
         //22
         //New image should auto update
+        //23
     }
 }
